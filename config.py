@@ -1,0 +1,9 @@
+USERNAME = "User"
+BOTNAME = "Mia"
+CONVERSATION_FILE = f'data/conv_history_{BOTNAME}_terminal.txt'
+SUMMARY_FILE = f'data/summary_{BOTNAME}_history.txt'
+MESSAGE_COUNTER_FILE = 'data/message_counter.txt'  # File to store message counter
+MESSAGE_INTERVAL = 20
+HISTORY_LIMIT = 1000
+ENDPOINT = "http://127.0.0.1:5001"
+STOP_TOKENS = ["[END]", "<|endoftext|>", "\n\n", "[","[2", "[202","User:"]
